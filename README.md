@@ -1,0 +1,1 @@
+An adapter in Android is a software component that acts as a bridge between a data source and a UI component, such as a RecyclerView, ListView, or Spinner. Its purpose is to take data from a source (like an array, list, or database) and convert each item into a View that can be displayed to the user.
