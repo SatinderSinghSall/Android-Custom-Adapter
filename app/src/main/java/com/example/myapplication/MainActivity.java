@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-
         ListView listView_Countries = findViewById(R.id.ListView_Countries);
 
         String[] countries = {"India", "United Kingdom", "USA", "France"};
