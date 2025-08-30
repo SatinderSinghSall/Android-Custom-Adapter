@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView_Countries = findViewById(R.id.ListView_Countries);
 
         String[] countries = {"India", "United Kingdom", "USA", "France"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, countries);
+        MyCustomAdapter adapter = new MyCustomAdapter(this, countries);
 
         listView_Countries.setAdapter(adapter);
     }
